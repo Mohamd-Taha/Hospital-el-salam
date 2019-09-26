@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{526B9211-E71C-4CE3-B3EE-0ACF319B308E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>client</RootNamespace>
+    <AssemblyName>client</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Mohamed Osama\Desktop\New trying\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>dsa</ProductName>
+    <PublisherName>das</PublisherName>
+    <SuiteName>dw</SuiteName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Client.cs" />
+    <Compile Include="BL\Login.cs" />
+    <Compile Include="BL\motions.cs" />
+    <Compile Include="BL\User.cs" />
+    <Compile Include="DAL\DAL.cs" />
+    <Compile Include="PL\add_dely_minute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\add_dely_minute.Designer.cs">
+      <DependentUpon>add_dely_minute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\add_sheet_of_clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\add_sheet_of_clients.Designer.cs">
+      <DependentUpon>add_sheet_of_clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\add_staying_hours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\add_staying_hours.Designer.cs">
+      <DependentUpon>add_staying_hours.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\backup.Designer.cs">
+      <DependentUpon>backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\clients_that_recived_sallary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\clients_that_recived_sallary.Designer.cs">
+      <DependentUpon>clients_that_recived_sallary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\client_motion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\client_motion.Designer.cs">
+      <DependentUpon>client_motion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_add_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_add_employee.Designer.cs">
+      <DependentUpon>frm_add_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_add_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_add_user.Designer.cs">
+      <DependentUpon>frm_add_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_client_managment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_client_managment.Designer.cs">
+      <DependentUpon>frm_client_managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_config.Designer.cs">
+      <DependentUpon>frm_config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_constants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_constants.Designer.cs">
+      <DependentUpon>frm_constants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_employee.Designer.cs">
+      <DependentUpon>frm_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_reports.Designer.cs">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_role_and_department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_role_and_department.Designer.cs">
+      <DependentUpon>frm_role_and_department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_settings.Designer.cs">
+      <DependentUpon>frm_settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_type_of_add_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_type_of_add_employee.Designer.cs">
+      <DependentUpon>frm_type_of_add_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_users.Designer.cs">
+      <DependentUpon>frm_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_view_constants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_view_constants.Designer.cs">
+      <DependentUpon>frm_view_constants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\frm_view_role_and_department.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\frm_view_role_and_department.Designer.cs">
+      <DependentUpon>frm_view_role_and_department.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Getting_Start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Getting_Start.Designer.cs">
+      <DependentUpon>Getting_Start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\piad_sallary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\piad_sallary.Designer.cs">
+      <DependentUpon>piad_sallary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\select_client_month_year_to_print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\select_client_month_year_to_print.Designer.cs">
+      <DependentUpon>select_client_month_year_to_print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\select_depart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\select_depart.Designer.cs">
+      <DependentUpon>select_depart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\select_month_year.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\select_month_year.Designer.cs">
+      <DependentUpon>select_month_year.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPT\from_print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPT\from_print.Designer.cs">
+      <DependentUpon>from_print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\get_data_about_salary_to_print.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>get_data_about_salary_to_print.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\get_data_about_shiftes_to_print.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>get_data_about_shiftes_to_print.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\get_data_about_staying_to_print.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>get_data_about_staying_to_print.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_AllClients.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_AllClients.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_all_clients.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_all_clients.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_details_about_sallary_of_client1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_details_about_sallary_of_client.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_sallary_of_depart.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_sallary_of_depart.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_sallary_sallary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_sallary_sallary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_sallary_stay.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_sallary_stay.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_shift_sallary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_shift_sallary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\rpt_all_we_need_about_client.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_all_we_need_about_client.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="PL\add_dely_minute.resx">
+      <DependentUpon>add_dely_minute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\add_sheet_of_clients.resx">
+      <DependentUpon>add_sheet_of_clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\add_staying_hours.resx">
+      <DependentUpon>add_staying_hours.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\backup.resx">
+      <DependentUpon>backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\clients_that_recived_sallary.resx">
+      <DependentUpon>clients_that_recived_sallary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\client_motion.resx">
+      <DependentUpon>client_motion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_add_employee.resx">
+      <DependentUpon>frm_add_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_add_user.resx">
+      <DependentUpon>frm_add_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_client_managment.resx">
+      <DependentUpon>frm_client_managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_config.resx">
+      <DependentUpon>frm_config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_constants.resx">
+      <DependentUpon>frm_constants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_employee.resx">
+      <DependentUpon>frm_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_reports.resx">
+      <DependentUpon>frm_reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_role_and_department.resx">
+      <DependentUpon>frm_role_and_department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_settings.resx">
+      <DependentUpon>frm_settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_type_of_add_employee.resx">
+      <DependentUpon>frm_type_of_add_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_users.resx">
+      <DependentUpon>frm_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_view_constants.resx">
+      <DependentUpon>frm_view_constants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\frm_view_role_and_department.resx">
+      <DependentUpon>frm_view_role_and_department.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Getting_Start.resx">
+      <DependentUpon>Getting_Start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\piad_sallary.resx">
+      <DependentUpon>piad_sallary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\select_client_month_year_to_print.resx">
+      <DependentUpon>select_client_month_year_to_print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\select_depart.resx">
+      <DependentUpon>select_depart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\select_month_year.resx">
+      <DependentUpon>select_month_year.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RPT\from_print.resx">
+      <DependentUpon>from_print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\get_data_about_salary_to_print.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>get_data_about_salary_to_print.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\get_data_about_shiftes_to_print.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>get_data_about_shiftes_to_print.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\get_data_about_staying_to_print.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>get_data_about_staying_to_print.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_AllClients.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_AllClients.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_all_clients.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_all_clients.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_details_about_sallary_of_client.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_details_about_sallary_of_client1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_sallary_of_depart.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_sallary_of_depart.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_sallary_sallary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_sallary_sallary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_sallary_stay.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_sallary_stay.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_shift_sallary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_shift_sallary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\rpt_all_we_need_about_client.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_all_we_need_about_client.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="client.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommLayer">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CommonObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Controllers">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.CubeDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.DataSetConversion">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ObjectFactory">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.Prompting">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.ReportDefModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportAppServer.XmlSerialize">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="FlashControlV71">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ShockwaveFlashObjects">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

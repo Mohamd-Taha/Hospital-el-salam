@@ -1,0 +1,856 @@
+D:\Private\clients\client\client\bin\Debug\client.exe.config
+D:\Private\clients\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Private\clients\client\client\obj\Debug\client.Properties.Resources.resources
+D:\Private\clients\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\Private\clients\client\client\bin\Debug\client.exe
+D:\Private\clients\client\client\bin\Debug\client.pdb
+D:\Private\clients\client\client\obj\Debug\client.exe
+D:\Private\clients\client\client\obj\Debug\client.pdb
+D:\Private\clients\client\client\obj\Debug\client.PL.Client_Managment.resources
+D:\Private\clients\client\client\obj\Debug\client.PL.frm_config.resources
+D:\Private\clients\client\client\obj\Debug\client.PL.Getting_Start.resources
+D:\Private\clients\client\client\obj\Debug\client.PL.frm_login.resources
+D:\Private\clients\ver1\client\client\bin\Debug\client.exe.config
+D:\Private\clients\ver1\client\client\obj\Debug\client.exe
+D:\Private\clients\ver1\client\client\obj\Debug\client.pdb
+D:\Clients\client_BL\client\client\bin\Debug\client.exe.config
+D:\Clients\client_BL\client\client\obj\Debug\client.exe
+D:\Clients\client_BL\client\client\obj\Debug\client.pdb
+D:\Clients\client_BL\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_config.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_login.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.Getting_Start.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.Properties.Resources.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\Clients\client_BL\client\client\bin\Debug\client.exe
+D:\Clients\client_BL\client\client\bin\Debug\client.pdb
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_employee.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_user.resources
+D:\Clients\client_BL\client\client\obj\Debug\client.PL.frm_users.resources
+H:\mohamed\Clients\client_BL\client\client\bin\Debug\client.exe.config
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.exe
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.pdb
+H:\mohamed\Clients\client_BL\client\client\bin\Debug\client.exe
+H:\mohamed\Clients\client_BL\client\client\bin\Debug\client.pdb
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_employee.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_add_user.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_config.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_constants.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_employee.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_login.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_Shifts.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_users.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.Getting_Start.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.Properties.Resources.resources
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+H:\mohamed\Clients\client_BL\client\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_Shifts.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\Client\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Mohamed Osama\Desktop\Client\client\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\client\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\client\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\client\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_Shifts.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\client\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.backup.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_Shifts.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client2\client\bin\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\bin\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.backup.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_Shifts.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\client_2\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\client_2\client_2\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\client_2\client_2\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\client_2\client_2\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_add_excel_sheet.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_Shifts.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\client_2\client_2\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\bin\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.backup.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\last_update_ready_to_work_75%\client_2\client_2\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\New folder (2)\client_3\hospital\ver3.0\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\ver3.0\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.0\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.0\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\ver3.0\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\bin\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Mohamed Osama\Desktop\Client\ver3.1\ver3.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\bin\Debug\client.exe.config
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.exe
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.pdb
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\bin\Debug\client.exe
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\bin\Debug\client.pdb
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\el-handasia\Desktop\ver3.2\ver3.1\ver3.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\ver3.21\ver3.21\ver3.2\ver3.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\ver3.22\ver3.22\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\el-handasia\Desktop\ver3.3\ver3.3\ver3.3\source code\client\bin\Debug\client.exe.config
+C:\Users\el-handasia\Desktop\ver3.3\ver3.3\ver3.3\source code\client\obj\Debug\client.exe
+C:\Users\el-handasia\Desktop\ver3.3\ver3.3\ver3.3\source code\client\obj\Debug\client.pdb
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\bin\Debug\client.exe.config
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.exe
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.pdb
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\bin\Debug\client.exe
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\bin\Debug\client.pdb
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.backup.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_add_user.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_config.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_constants.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_employee.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_login.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_reports.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_settings.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_users.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.Getting_Start.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.piad_sallary.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.PL.select_depart.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.Properties.Resources.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.RPT.from_print.resources
+D:\Client\ver3.3.2.2\ver3.3.2\ver3.3\ver3.3\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\Full_V2\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\Full_V2\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\Full_V2\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\bin\Debug\client.exe.config
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.exe
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.pdb
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\bin\Debug\client.exe
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\bin\Debug\client.pdb
+C:\Users\el-handasia\Desktop\ver4.1\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe.config
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.pdb
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.exe
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.pdb
+C:\Users\Eng.Mohamed\Desktop\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe.config
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.exe
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.pdb
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.pdb
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\El-Handasia\Desktop\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe.config
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.exe
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.pdb
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.exe
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\bin\Debug\client.pdb
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.backup.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.client_motion.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_add_user.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_config.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_constants.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_employee.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_login.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_reports.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_settings.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_users.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.Getting_Start.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.piad_sallary.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_depart.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.Properties.Resources.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.RPT.from_print.resources
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\16-9-2019\14-9-2019\14-9-2019\ver4.31\ver4.3\ver4.2\ver4.1\Full_V2\source code\client\obj\Debug\client.PL.select_month_year.resources
+D:\private\hospital\ver5.1\source code\client\bin\Debug\client.exe.config
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.exe
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.pdb
+D:\private\hospital\ver5.1\source code\client\bin\Debug\client.exe
+D:\private\hospital\ver5.1\source code\client\bin\Debug\client.pdb
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.backup.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.client_motion.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_config.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_login.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_users.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.select_depart.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.PL.select_month_year.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.Properties.Resources.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.RPT.from_print.resources
+D:\private\hospital\ver5.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\bin\Debug\client.exe.config
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.exe
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.pdb
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\bin\Debug\client.exe
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\bin\Debug\client.pdb
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.backup.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.client_motion.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_config.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_login.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_users.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.select_depart.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.PL.select_month_year.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.Properties.Resources.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.RPT.from_print.resources
+D:\Client\5thEdition\ver5.2\ver5.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\bin\Debug\client.exe.config
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.exe
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.pdb
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.backup.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.client_motion.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_add_user.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_config.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_constants.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_employee.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_login.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_reports.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_settings.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_users.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.Getting_Start.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.piad_sallary.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.select_depart.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.select_month_year.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.Properties.Resources.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.RPT.from_print.resources
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\bin\Debug\client.exe
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\bin\Debug\client.pdb
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+D:\Client\5thEdition\ver5.3\ver5.1\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\bin\Debug\client.exe.config
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.exe
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.pdb
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\bin\Debug\client.exe
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\bin\Debug\client.pdb
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.PL.select_month_year.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\El-Handasia\Desktop\version6.3\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\bin\Debug\client.exe.config
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.exe
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.pdb
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\bin\Debug\client.exe
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\bin\Debug\client.pdb
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.PL.select_month_year.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\m_mos\Desktop\version6.4\version6.3\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+E:\Work\version6.4\source code\client\bin\Debug\client.exe.config
+E:\Work\version6.4\source code\client\obj\Debug\client.exe
+E:\Work\version6.4\source code\client\obj\Debug\client.pdb
+E:\Work\version6.4\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.backup.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.client_motion.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_add_user.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_config.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_constants.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_employee.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_login.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_reports.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_settings.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_users.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.Getting_Start.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.piad_sallary.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.select_depart.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.PL.select_month_year.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.Properties.Resources.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.RPT.from_print.resources
+E:\Work\version6.4\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.backup.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.client_motion.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_add_user.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_config.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_constants.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_employee.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_login.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_reports.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_settings.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_users.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.Getting_Start.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.piad_sallary.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_depart.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_month_year.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.Properties.Resources.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.RPT.from_print.resources
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+E:\Work\version6.5\version6.5\source code\client\obj\Debug\client.exe
+E:\Work\version6.5\version6.5\source code\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\bin\Debug\client.exe.config
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\bin\Debug\client.exe
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\bin\Debug\client.pdb
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_dely_minute.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_sheet_of_clients.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.add_staying_hours.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.backup.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.clients_that_recived_sallary.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.client_motion.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_add_user.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_client_managment.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_config.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_constants.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_employee.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_login.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_reports.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_settings.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_type_of_add_employee.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_users.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_view_constants.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.frm_view_role_and_department.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.Getting_Start.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.piad_sallary.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_client_month_year_to_print.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_depart.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.PL.select_month_year.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.RPT.from_print.resources
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Mohamed Osama\Desktop\version6.5\version6.5\version6.5\source code\client\obj\Debug\client.pdb
