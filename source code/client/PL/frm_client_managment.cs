@@ -1208,5 +1208,10 @@ namespace client.PL
 
         }
 
+        private void frm_client_managment_Resize(object sender, EventArgs e)
+        {
+           resizeControlers();
+        }
+
     }
 }

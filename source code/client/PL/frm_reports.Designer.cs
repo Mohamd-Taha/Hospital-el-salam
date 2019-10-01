@@ -140,6 +140,7 @@
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+          this.button5.Resize += new System.EventHandler(this.button5_Resize);
             // 
             // button6
             // 
@@ -286,6 +287,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "التقارير عن الموظفين";
             this.Load += new System.EventHandler(this.frm_reports_Load);
+            this.Resize += new System.EventHandler(this.frm_reports_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 

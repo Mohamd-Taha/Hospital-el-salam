@@ -25,7 +25,7 @@ namespace client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PL.frm_login());
+            //Application.Run(new PL.frm_reports());
         }
     }
 }
