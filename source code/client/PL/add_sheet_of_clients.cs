@@ -46,10 +46,12 @@ namespace client.PL
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Cursor.Current = Cursors.AppStarting;
             for (int i = 0; i < dataGridView1.Rows.Count-1; i++)
             {
                 client.addClient(Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value),Convert.ToString( dataGridView1.Rows[i].Cells[1].Value), Convert.ToInt32(dataGridView1.Rows[i].Cells[2].Value),Convert.ToDouble(dataGridView1.Rows[i].Cells[3].Value), Convert.ToString( dataGridView1.Rows[i].Cells[4].Value), Convert.ToDouble(dataGridView1.Rows[i].Cells[5].Value));
             }
+            Cursor.Current = Cursors.Default;
             MessageBox.Show("تم اضافه الموظفين");
         }
 

@@ -233,67 +233,109 @@
     <Compile Include="RPT\from_print.Designer.cs">
       <DependentUpon>from_print.cs</DependentUpon>
     </Compile>
-    <Compile Include="RPT\get_data_about_salary_to_print.cs">
+    <Compile Include="RPT\get_data_about_salary_to_print1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>get_data_about_salary_to_print.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\get_data_about_shiftes_to_print.cs">
+    <Compile Include="RPT\get_data_about_shiftes_to_print1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>get_data_about_shiftes_to_print.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\get_data_about_staying_to_print.cs">
+    <Compile Include="RPT\get_data_about_staying_to_print1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>get_data_about_staying_to_print.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_AllClients.cs">
+    <Compile Include="RPT\print_AllClients1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_AllClients.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_all_clients.cs">
+    <Compile Include="RPT\print_all_clients1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_all_clients.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_details_about_sallary_of_client1.cs">
+    <Compile Include="RPT\print_all_clients_to_sheet_excel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_all_clients_to_sheet_excel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_salary1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_salary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_salary_over_all.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_salary_over_all.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_shifts1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_shifts.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_shifts_over_all.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_shifts_over_all.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_staying1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_staying.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_client_card_staying_over_all.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>print_client_card_staying_over_all.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\print_details_about_sallary_of_client.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_details_about_sallary_of_client.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_sallary_of_depart.cs">
+    <Compile Include="RPT\print_sallary_of_depart1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_sallary_of_depart.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_sallary_sallary.cs">
+    <Compile Include="RPT\print_sallary_sallary1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_sallary_sallary.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_sallary_stay.cs">
+    <Compile Include="RPT\print_sallary_stay1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_sallary_stay.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\print_shift_sallary.cs">
+    <Compile Include="RPT\print_shift_sallary1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>print_shift_sallary.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="RPT\rpt_all_we_need_about_client.cs">
+    <Compile Include="RPT\rpt_all_we_need_about_client1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>rpt_all_we_need_about_client.rpt</DependentUpon>
@@ -389,47 +431,75 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\get_data_about_salary_to_print.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>get_data_about_salary_to_print.cs</LastGenOutput>
+      <LastGenOutput>get_data_about_salary_to_print1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\get_data_about_shiftes_to_print.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>get_data_about_shiftes_to_print.cs</LastGenOutput>
+      <LastGenOutput>get_data_about_shiftes_to_print1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\get_data_about_staying_to_print.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>get_data_about_staying_to_print.cs</LastGenOutput>
+      <LastGenOutput>get_data_about_staying_to_print1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_AllClients.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_AllClients.cs</LastGenOutput>
+      <LastGenOutput>print_AllClients1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_all_clients.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_all_clients.cs</LastGenOutput>
+      <LastGenOutput>print_all_clients1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_all_clients_to_sheet_excel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_all_clients_to_sheet_excel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_salary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_salary1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_salary_over_all.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_salary_over_all.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_shifts.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_shifts1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_shifts_over_all.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_shifts_over_all.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_staying.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_staying1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\print_client_card_staying_over_all.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>print_client_card_staying_over_all.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_details_about_sallary_of_client.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_details_about_sallary_of_client1.cs</LastGenOutput>
+      <LastGenOutput>print_details_about_sallary_of_client.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_sallary_of_depart.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_sallary_of_depart.cs</LastGenOutput>
+      <LastGenOutput>print_sallary_of_depart1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_sallary_sallary.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_sallary_sallary.cs</LastGenOutput>
+      <LastGenOutput>print_sallary_sallary1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_sallary_stay.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_sallary_stay.cs</LastGenOutput>
+      <LastGenOutput>print_sallary_stay1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\print_shift_sallary.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>print_shift_sallary.cs</LastGenOutput>
+      <LastGenOutput>print_shift_sallary1.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="RPT\rpt_all_we_need_about_client.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rpt_all_we_need_about_client.cs</LastGenOutput>
+      <LastGenOutput>rpt_all_we_need_about_client1.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -20,8 +20,6 @@ namespace client.PL
 
         private void frm_view_constants_Load(object sender, EventArgs e)
         {
-            
-
             dataGridView1.DataSource = client.get_all_Constants();
             for (int i = 0; i < client.get_role_and_department().Rows.Count; i++)
             {
@@ -36,100 +34,7 @@ namespace client.PL
                 }
 
             }
-            orginalSize = this.Size;
-            groupBox1OriginalArea = new Rectangle(groupBox1.Location.X, groupBox1.Location.Y, groupBox1.Width, groupBox1.Height);
-            label8OriginalArea = new Rectangle(label8.Location.X, label8.Location.Y, label8.Width, label8.Height);
-            label3OriginalArea = new Rectangle(label3.Location.X, label3.Location.Y, label3.Width, label3.Height);
-            label1OriginalArea = new Rectangle(label1.Location.X, label1.Location.Y, label1.Width, label1.Height);
-            label4OriginalArea = new Rectangle(label4.Location.X, label4.Location.Y, label4.Width, label4.Height);
-            txt_idOriginalArea = new Rectangle(txt_id.Location.X, txt_id.Location.Y, txt_id.Width, txt_id.Height);
-            combo_departmentOriginalArea = new Rectangle(combo_department.Location.X, combo_department.Location.Y, combo_department.Width, combo_department.Height);
-            combo_roleOriginalArea = new Rectangle(combo_role.Location.X, combo_role.Location.Y, combo_role.Width, combo_role.Height);
-            txt_old_insuranceOriginalArea = new Rectangle(txt_old_insurance.Location.X, txt_old_insurance.Location.Y, txt_old_insurance.Width, txt_old_insurance.Height);
-            label6OriginalArea =new Rectangle (label6.Location.X,label6.Location.Y,label6.Width,label6.Height);
-            label2OriginalArea=new Rectangle (label2.Location.X,label2.Location.Y,label2.Width,label2.Height);
-            label5OriginalArea=new Rectangle (label5.Location.X,label5.Location.Y,label5.Width,label5.Height);
-            label7OriginalArea=new Rectangle(label7.Location.X,label7.Location.Y,label7.Width,label7.Height);
-            txt_new_insuranceOriginalArea=new Rectangle(txt_new_insurance.Location.X,txt_new_insurance.Location.Y,txt_new_insurance.Width,txt_new_insurance.Height);
-         //   txt_new_insuranceOriginalArea=new Rectangle(txt_new_insurance.Location.X,txt_new_insurance.Location.Y,txt_new_insurance.Width,txt_new_insurance.Height);
-            txt_morning_shift_valueOriginalArea=new Rectangle (txt_morning_shift_value.Location.X,txt_morning_shift_value.Location.Y,txt_morning_shift_value.Width,txt_morning_shift_value.Height);
-            txt_night_shift_valueOriginalArea=new Rectangle(txt_night_shift_value.Location.X,txt_night_shift_value.Location.Y,txt_night_shift_value.Width,txt_night_shift_value.Height);
-            txt_IncentivesOriginalArea=new Rectangle(txt_Incentives.Location.X,txt_Incentives.Location.Y,txt_Incentives.Width,txt_Incentives.Height);
-            groupBox2OriginalArea=new Rectangle (groupBox2.Location.X,groupBox2.Location.Y,groupBox2.Width,groupBox2.Height);
-            dataGridView1OriginalArea=new Rectangle(dataGridView1.Location.X,dataGridView1.Location.Y,dataGridView1.Width,dataGridView1.Height);
-            groupBox3OriginalArea=new Rectangle (groupBox3.Location.X,groupBox3.Location.Y,groupBox3.Width,groupBox3.Height);
-            btn_saveOriginalArea=new Rectangle (btn_save.Location.X,btn_save.Location.Y,btn_save.Width,btn_save.Height);
-            btn_deleteOriginalArea=new Rectangle(btn_delete.Location.X,btn_delete.Location.Y,btn_delete.Width,btn_delete.Height);
-            btn_editOriginalArea=new Rectangle (btn_edit.Location.X,btn_edit.Location.Y,btn_edit.Width,btn_edit.Height);
-            btn_exitOriginalArea=new Rectangle(btn_exit.Location.X,btn_exit.Location.Y,btn_exit.Width,btn_exit.Height);
-                    }
-
-        private Rectangle groupBox1OriginalArea;
-        private Rectangle label8OriginalArea;
-        private Rectangle label3OriginalArea;
-        private Rectangle label1OriginalArea;
-        private Rectangle label4OriginalArea;
-        private Rectangle txt_idOriginalArea;
-        private Rectangle combo_departmentOriginalArea;
-        private Rectangle combo_roleOriginalArea;
-        private Rectangle txt_old_insuranceOriginalArea;
-        private Rectangle label6OriginalArea;
-        private Rectangle label2OriginalArea;
-        private Rectangle label5OriginalArea;
-        private Rectangle label7OriginalArea;
-        private Rectangle txt_new_insuranceOriginalArea;
-        private Rectangle txt_morning_shift_valueOriginalArea;
-        private Rectangle txt_night_shift_valueOriginalArea;
-        private Rectangle txt_IncentivesOriginalArea;
-        private Rectangle groupBox2OriginalArea;
-        private Rectangle dataGridView1OriginalArea;
-        private Rectangle groupBox3OriginalArea;
-        private Rectangle btn_saveOriginalArea;
-        private Rectangle btn_deleteOriginalArea;
-        private Rectangle btn_editOriginalArea;
-        private Rectangle btn_exitOriginalArea;
-         private Size orginalSize;
-
-         private void resizeControlers()
-         {
-             resizeControler(groupBox1OriginalArea, groupBox1);
-             resizeControler(label8OriginalArea, label8);
-             resizeControler(label3OriginalArea, label3);
-             resizeControler(label1OriginalArea, label1);
-             resizeControler(label4OriginalArea, label4);
-             resizeControler(txt_idOriginalArea, txt_id);
-             resizeControler(combo_departmentOriginalArea, combo_department);
-             resizeControler(combo_roleOriginalArea, combo_role);
-             resizeControler(txt_old_insuranceOriginalArea, txt_old_insurance);
-             resizeControler(label6OriginalArea, label6);
-             resizeControler(label2OriginalArea, label2);
-             resizeControler(label5OriginalArea, label5);
-             resizeControler(label7OriginalArea, label7);
-             resizeControler(txt_new_insuranceOriginalArea, txt_new_insurance);
-             resizeControler(txt_morning_shift_valueOriginalArea, txt_morning_shift_value);
-             resizeControler(txt_night_shift_valueOriginalArea, txt_night_shift_value);
-             resizeControler(txt_IncentivesOriginalArea, txt_Incentives);
-             resizeControler(groupBox2OriginalArea, groupBox2);
-             resizeControler(dataGridView1OriginalArea, dataGridView1);
-             resizeControler(groupBox3OriginalArea, groupBox3);
-             resizeControler(btn_deleteOriginalArea, btn_delete);
-             resizeControler(btn_editOriginalArea, btn_edit);
-             resizeControler(btn_exitOriginalArea, btn_exit);
-         }
-         private void resizeControler(Rectangle orginalControlerRect, Control control)
-         {
-             float xRetio = (float)(this.Width / (float)(orginalSize.Width));
-             float yRetio = (float)(this.Height / (float)(orginalSize.Height));
-
-             int newX = (int)(orginalControlerRect.X * xRetio);
-             int newY = (int)(orginalControlerRect.Y * yRetio);
-
-             int newWidth = (int)(orginalControlerRect.Width * xRetio);
-             int newHeight = (int)(orginalControlerRect.Height * yRetio);
-
-             control.Location = new Point(newX, newY);
-             control.Size = new Size(newWidth, newHeight);
-         }
+        }
 
         private void dataGridView1_Click(object sender, EventArgs e)
         {

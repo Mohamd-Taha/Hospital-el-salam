@@ -83,7 +83,7 @@ namespace client.BL
 
 
 
-        public void add_other(string additions, double value_of_additions, string discounts, double value_of_discounts,
+        public void add_other(string additions, double value_of_additions, string fans, double value_of_fans,
             DateTime date_of_other, int Client_id, double other, string reaseon_of_other)
         {
             DAL.DAL dal = new DAL.DAL();
@@ -97,12 +97,12 @@ namespace client.BL
             param[1].Value = value_of_additions;
 
 
-            param[2] = new SqlParameter("@discounts", SqlDbType.VarChar, 50);
-            param[2].Value = discounts;
+            param[2] = new SqlParameter("@fans", SqlDbType.VarChar, 50);
+            param[2].Value = fans;
 
 
-            param[3] = new SqlParameter("@value_of_discounts", SqlDbType.Float);
-            param[3].Value = value_of_discounts;
+            param[3] = new SqlParameter("@value_of_fans", SqlDbType.Float);
+            param[3].Value = value_of_fans;
 
 
 
@@ -193,7 +193,7 @@ namespace client.BL
 
         }
       
-        public void addOverall(int Client_id, DateTime Date, double Salary, double TotalMerit, double TotalDeduction, double Total)
+      /*  public void addOverall(int Client_id, DateTime Date, double Salary, double TotalMerit, double TotalDeduction, double Total)
         {
             DAL.DAL dal = new DAL.DAL();
             dal.open();
@@ -225,7 +225,7 @@ namespace client.BL
         }
 
 
-
+        */
 
         public void addShift(int Client_id, DateTime Date, double MorningShift, double NightShift, double extra_shift, double over_shift, double no_of_staying_hours)
         {
@@ -1368,6 +1368,48 @@ namespace client.BL
             dal.close();
         }
 
+
+        public void update_others(string additions, double value_of_additions,string fans,
+            double value_of_fans, double other, string reaseon_of_other, int Client_id, DateTime date_of_other)
+        {
+            DAL.DAL dal = new DAL.DAL();
+            dal.open();
+            SqlParameter[] param = new SqlParameter[8];
+
+            param[0] = new SqlParameter("@additions", SqlDbType.VarChar, 50);
+            param[0].Value = additions;
+
+
+            param[1] = new SqlParameter("@value_of_additions", SqlDbType.Float);
+            param[1].Value = value_of_additions;
+
+
+            param[2] = new SqlParameter("@fans", SqlDbType.VarChar, 50);
+            param[2].Value = fans;
+
+
+            param[3] = new SqlParameter("@value_of_fans", SqlDbType.Float);
+            param[3].Value = value_of_fans;
+
+
+            param[4] = new SqlParameter("@other", SqlDbType.Float);
+            param[4].Value = other;
+
+
+            param[5] = new SqlParameter("@reaseon_of_other", SqlDbType.VarChar, 50);
+            param[5].Value = reaseon_of_other;
+
+
+            param[6] = new SqlParameter("@Client_id", SqlDbType.Int);
+            param[6].Value = Client_id;
+
+            param[7] = new SqlParameter("@date_of_other", SqlDbType.Date);
+            param[7].Value = date_of_other;
+
+
+            dal.ExecuteComand("update_others", param);
+            dal.close();
+        }
 
 
 

@@ -295,11 +295,11 @@ namespace client.PL
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cursor.Current = Cursors.WaitCursor;
+            Cursor.Current = Cursors.AppStarting;
 
-            int start, end;
+         
 
-            start = client.get_other().Rows.Count;
+            
 
           // try
            // {
@@ -311,17 +311,14 @@ namespace client.PL
                     {
 
 
-                        //لو شفت وليس له اضافات
-                        if (Convert.ToInt32(dt_exel.Rows[i].Cells[14].Value) == 0 && (dt_exel.Rows[i].Cells[12].Value.ToString() == "شيفت"))
-                        {
-                            client.add_other("", 0, "", 0, dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
-                            int depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(Convert.ToString(dt_exel.Rows[i].Cells[2].Value.ToString()), Convert.ToString(dt_exel.Rows[i].Cells[3].Value)).Rows[0][0]);
                             double salary_for_tax = 0.0;
                             double tax = 0;
-                            salary_for_tax = (Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value) * Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) + (Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value) * Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]));
+                            client.add_other(Convert.ToString(dt_exel.Rows[i].Cells[15].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), Convert.ToString(dt_exel.Rows[i].Cells[17].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
+                            int depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(Convert.ToString(dt_exel.Rows[i].Cells[2].Value.ToString()), Convert.ToString(dt_exel.Rows[i].Cells[3].Value)).Rows[0][0]);
+                             salary_for_tax = (Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value) * Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) + (Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value) * Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]));
                             client.addShift(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value),
                                 Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value)
-                      , Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
+                            , Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
                             client.addDeduction(dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[9].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[10].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)
                             , (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)), (Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) * Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value));
                             if (salary_for_tax >= 1250)
@@ -338,48 +335,7 @@ namespace client.PL
                             client.get_incentives(depart_role_id);
 
                             client.addIncentives(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), salary_for_tax * Convert.ToDouble(client.get_incentives(depart_role_id).Rows[0][0]), depart_role_id);
-                            //  client.addClient(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dt_exel.Rows[i].Cells[1].Value.ToString(), dt_exel.Rows[i].Cells[2].Value.ToString());
-                        }
-
-
-                        //لو شفت وله اضافات
-                        else
-                        {
-                            client.add_other(dt_exel.Rows[i].Cells[15].Value.ToString(), Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), dt_exel.Rows[i].Cells[17].Value.ToString(), Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0.0, "");
-                            int depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(Convert.ToString(dt_exel.Rows[i].Cells[2].Value.ToString()), Convert.ToString(dt_exel.Rows[i].Cells[3].Value)).Rows[0][0]);
-                            double salary_for_tax = 0.0;
-                            double tax = 0.0;
-                            salary_for_tax = (Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value) * Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) + (Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value) * Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]));
-
-                            client.addShift(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value),
-                                Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value),
-                                Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
-                            client.addDeduction(dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[9].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[10].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)
-                            , (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)), (Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) * Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value));
-                            if (salary_for_tax >= 1250)
-                            {
-                                tax = ((((salary_for_tax * 12) - 15000.0) / 12) * 0.015);
-                                client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), tax);
-                            }
-                            else
-                            {
-                                client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0);
-                            }
-
-
-
-
-                            client.addIncentives(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), salary_for_tax * Convert.ToDouble(client.get_incentives(depart_role_id).Rows[0][0]), depart_role_id);
-                            //  client.addClient(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dt_exel.Rows[i].Cells[1].Value.ToString(), dt_exel.Rows[i].Cells[2].Value.ToString());
-
-                        }
-
-
-
-
-
-
-
+                          
 
                     }
 
@@ -390,41 +346,25 @@ namespace client.PL
 
                     else if (dt_exel.Rows[i].Cells[12].Value.ToString() == "راتب")
                     {
+                        double tax = 0;
                         int depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(Convert.ToString(dt_exel.Rows[i].Cells[2].Value.ToString()), Convert.ToString(dt_exel.Rows[i].Cells[3].Value)).Rows[0][0]);
 
 
-                        double tax = 0;
 
-                        //اضافه شفت لو كان فيه زياده و اضافي مع الراتب
-                        /*   client.addShift(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dateTimePicker1.Value, 0, 0,
-                                ((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) / 30.0) * 1.5) * (Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value)),
 
-                              ((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) / 30.0)) * (Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value)), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
-                           */
+                        client.add_other(Convert.ToString(dt_exel.Rows[i].Cells[15].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), Convert.ToString(dt_exel.Rows[i].Cells[17].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
                         client.addShift(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), dateTimePicker1.Value, 0, 0,
-                            Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value),
-
-                         Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
-
-
+                        Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value),
+                        Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
                         client.addDeduction(dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[9].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[10].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)
                      , ((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) / 30.0) * Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)),
+                        ((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) / 30.0) / 8) * Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value));
 
 
 
-                     ((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) / 30.0) / 6) * Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value));
-
-
-
-
-
-
-
-
-                        //salary_for_tax = (Convert.ToDouble(dt_exel.Rows[i].Cells[4].Value) * Convert.ToDouble(client.getConstants(Convert.ToInt32(depart_role_id)).Rows[0][4])) + (Convert.ToDouble(dt_exel.Rows[i].Cells[5].Value) * Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]));
-                        if (Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) >= 1250)
+                         if (Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) >= 1250)
                         {
-                            tax = ((((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * 12) - 1500) / 12) * 0.015);
+                            tax = ((((Convert.ToDouble(client.get_sallary_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * 12) - 15000) / 12) * 0.015);
                             client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), tax);
                         }
                         else
@@ -453,12 +393,8 @@ namespace client.PL
                         double no_of_hours = Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value);
                         double value_of_stay = Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]);
 
-                        if (dt_exel.Rows[i].Cells[2].Value.ToString() == "العنايه المركزه")
-                        {
-                            client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), no_of_hours * value_of_stay * 0.1);
-                        }
-                        else
-                        {
+                       
+                        
                             double tax = 0;
                             if ((no_of_hours * value_of_stay) >= 1250)
                             {
@@ -469,55 +405,24 @@ namespace client.PL
                             {
                                 client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0);
                             }
-                        }
+                        
                         client.addDeduction(dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[9].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[10].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)
                      , ((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value) / 30.0) * Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)),
 
-
-
                      (((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value) / 30.0)) / 6) * Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value));
-
-                        /*     client.addShift(Convert.ToInt32(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)), dateTimePicker1.Value, 0, 0, ((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value) / 30.0) * 1.5) * (Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value)),
-
-
-
-
-                                ((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value) / 30.0)) * (Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value)), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
-             */
-                        client.addShift(Convert.ToInt32(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)), dateTimePicker1.Value, 0, 0, (Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value)),
-
-
-
-
-           (Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value)), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
+                  client.addShift(Convert.ToInt32(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)), dateTimePicker1.Value, 0, 0, (Convert.ToDouble(dt_exel.Rows[i].Cells[6].Value)),
+                  (Convert.ToDouble(dt_exel.Rows[i].Cells[7].Value)), Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value));
 
                         client.addIncentives(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), ((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value))) * Convert.ToDouble(client.get_incentives(depart_role_id).Rows[0][0]), depart_role_id);
                     }
-                    if (Convert.ToInt32(dt_exel.Rows[i].Cells[14].Value) == 0 && Convert.ToInt32(dt_exel.Rows[i].Cells[16].Value) == 0)
-                        client.add_other("", 0, "", 0, dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
-
-                    else if (Convert.ToInt32(dt_exel.Rows[i].Cells[14].Value) > 0 && Convert.ToInt32(dt_exel.Rows[i].Cells[16].Value) == 0)
-                    {
-                        client.add_other("", Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), "", 0, dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
-                    }
-
-                    else if (Convert.ToInt32(dt_exel.Rows[i].Cells[14].Value) == 0 && Convert.ToInt32(dt_exel.Rows[i].Cells[16].Value) > 0)
-                    {
-                        client.add_other("", 0, "", Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
-                    }
-
-
-                    else if (Convert.ToInt32(dt_exel.Rows[i].Cells[14].Value) > 0 && Convert.ToInt32(dt_exel.Rows[i].Cells[16].Value) > 0)
-                    {
-                        client.add_other("", Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), "", Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
-                    }
-
+                    client.add_other(Convert.ToString(dt_exel.Rows[i].Cells[15].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[14].Value), Convert.ToString(dt_exel.Rows[i].Cells[17].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[16].Value), dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0, "");
+                          
 
 
                 }
                 Cursor.Current = Cursors.Default;
 
-                end = client.get_other().Rows.Count;
+           
                /*if (start == end)
                 {
                     MessageBox.Show("لم يتم اضافة اي بايانات تأكد انك قمت بإضافة ملف الاكسيل", "لا توجد بايانات", MessageBoxButtons.OK);

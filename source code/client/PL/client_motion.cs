@@ -708,7 +708,7 @@ namespace client.PL
 
         private void client_motion_Resize(object sender, EventArgs e)
         {
-            //resizeControlers();
+            resizeControlers();
         }
     }
 }

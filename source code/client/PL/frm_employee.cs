@@ -657,7 +657,7 @@ namespace client.PL
                 //  txt_extra.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[11].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5).ToString();
 
                 //txt_adds.Text = "0.0";
-                txt_no_of_staying_hours.Text = "0";
+              
                 int depart_role_id;
                 depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(combo_department.SelectedItem.ToString(), combo_role.SelectedItem.ToString()).Rows[0][0]);
                 if (check_new.Checked == true && check_old.Checked == true)
@@ -668,12 +668,9 @@ namespace client.PL
                 {
                     txt_emp_insurance.Text = client.getConstants(depart_role_id).Rows[0][2].ToString();
                     client.updateDeduction(dateTimePicker1.Value, Convert.ToDouble(txt_lateness.Text), Convert.ToDouble(txt_loan.Text),
-                        Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][2]), Convert.ToDouble(txt_tax.Text), Convert.ToInt32(txt_absence.Text), Convert.ToInt32(txt_emp_id.Text));
-                    // client.updateShift(Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value, Convert.ToInt32(txt_am_shift_number.Text), Convert.ToInt32(txt_pm_shift_number.Text), Convert.ToDouble(txt_extra.Text) / ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5), Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text));
+                    Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][2]), Convert.ToDouble(txt_tax.Text), Convert.ToInt32(txt_absence.Text), Convert.ToInt32(txt_emp_id.Text));
                     client.updateShift(Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value, Convert.ToInt32(txt_am_shift_number.Text), Convert.ToInt32(txt_pm_shift_number.Text), Convert.ToDouble(txt_extra.Text), Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text));
-
-                    client.add_other(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), dateTimePicker1.Value,
-                    Convert.ToInt32(txt_emp_id.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text);
+                    client.update_others(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text, Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value);
                     client.updateClinet(txt_emp_name.Text, depart_role_id, Convert.ToDouble(txt_salary.Text), combo_type_of_salary.SelectedItem.ToString(), Convert.ToDouble(txt_value_of_stay.Text), Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
 
                     dataGridView1.DataSource = client.getCleint();
@@ -685,14 +682,10 @@ namespace client.PL
                     txt_emp_insurance.Text = client.getConstants(depart_role_id).Rows[0][3].ToString();
                     client.updateDeduction(dateTimePicker1.Value, Convert.ToDouble(txt_lateness.Text), Convert.ToDouble(txt_loan.Text),
                     Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][3]), Convert.ToDouble(txt_tax.Text), Convert.ToInt32(txt_absence.Text), Convert.ToInt32(txt_emp_id.Text));
-                    // client.updateShift(Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value, Convert.ToInt32(txt_am_shift_number.Text),
-
-                    // Convert.ToInt32(txt_pm_shift_number.Text), Convert.ToDouble(txt_extra.Text) / ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5), Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text));
                     client.updateShift(Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value, Convert.ToInt32(txt_am_shift_number.Text), Convert.ToInt32(txt_pm_shift_number.Text), Convert.ToDouble(txt_extra.Text), Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text));
                     client.updateClinet(txt_emp_name.Text, depart_role_id, Convert.ToDouble(txt_salary.Text), combo_type_of_salary.SelectedItem.ToString(), Convert.ToDouble(txt_value_of_stay.Text), Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
 
-                    client.add_other(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), dateTimePicker1.Value,
-                      Convert.ToInt32(txt_emp_id.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text);
+                    client.update_others(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text, Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value);
                     dataGridView1.DataSource = client.getCleint();
                     dataGridView1.Update();
                     MessageBox.Show("تمت عملية التحديث بنجاح", "تم التحديث", MessageBoxButtons.OK);
@@ -709,9 +702,7 @@ namespace client.PL
 
                     //  , Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text)); 
                     client.updateShift(Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value, Convert.ToInt32(txt_am_shift_number.Text), Convert.ToInt32(txt_pm_shift_number.Text), Convert.ToDouble(txt_extra.Text), Convert.ToDouble(txt_over.Text), Convert.ToDouble(txt_no_of_staying_hours.Text));
-
-                    client.add_other(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), dateTimePicker1.Value,
-                    Convert.ToInt32(txt_emp_id.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text);
+                    client.update_others(txt_type_of_adds.Text, Convert.ToDouble(txt_adds.Text), txt_type_of_fans.Text, Convert.ToDouble(txt_fans.Text), Convert.ToDouble(txt_other.Text), txt_type_of_other.Text, Convert.ToInt32(txt_emp_id.Text), dateTimePicker1.Value);
                     dataGridView1.DataSource = client.getCleint();
                     dataGridView1.Update();
                     MessageBox.Show("تمت عملية التحديث بنجاح", "تم التحديث", MessageBoxButtons.OK);
@@ -732,27 +723,29 @@ namespace client.PL
                 txt_salary.Text = "0.0";
                 txt_adds.Text = "0.0";
                 int depart_role_id;
+                double salary_for_tax = 0.0;
+                double tax = 0.0;
 
-
+            /*
+             احنا عاملين الاضافي اسمه اكسترااااااااااااااا وبيضرب في واحد ونص
+             */
+              
+             
 
                 txt_emp_id.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
                 txt_emp_name.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-
+            
                 combo_role.SelectedItem = dataGridView1.CurrentRow.Cells[2].Value.ToString();
                 combo_department.SelectedItem = dataGridView1.CurrentRow.Cells[3].Value.ToString();
                 combo_type_of_salary.SelectedItem = dataGridView1.CurrentRow.Cells[4].Value.ToString();
                 depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(combo_department.SelectedItem.ToString(), combo_role.SelectedItem.ToString()).Rows[0][0]);
-
-
                 txt_am_shift_number.Text = dataGridView1.CurrentRow.Cells[9].Value.ToString();
                 txt_am_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(txt_am_shift_number.Text)).ToString();
                 txt_pm_shift_number.Text = dataGridView1.CurrentRow.Cells[10].Value.ToString();
                 txt_pm_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]) * Convert.ToDouble(txt_pm_shift_number.Text)).ToString();
                 txt_extra.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[11].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5).ToString();
-
                 txt_over.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[12].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]))).ToString();
                 txt_Incentives.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[13].Value).ToString();
-
                 txt_adds.Text = (dataGridView1.CurrentRow.Cells[21].Value).ToString();   //client.getCleint().Rows[Convert.ToInt32(txt_emp_id.Text+1)][21].ToString();
                 txt_type_of_adds.Text = dataGridView1.CurrentRow.Cells[22].Value.ToString();
                 txt_fans.Text = dataGridView1.CurrentRow.Cells[23].Value.ToString();
@@ -768,26 +761,28 @@ namespace client.PL
 
 
 
-
-
                     txt_salary.Text = client.get_sallary_with_client_id(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)).Rows[0][0].ToString();
-
-
-
                     txt_extra.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
-
                     txt_over.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
-
-
                     txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
                         Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_salary.Text) + Convert.ToDouble(txt_adds.Text)
                         ).ToString();
 
 
-                    txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 6) * (Convert.ToDouble(dataGridView1.CurrentRow.Cells[14].Value))).ToString();
+                    txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 8) * (Convert.ToDouble(dataGridView1.CurrentRow.Cells[14].Value))).ToString();
                     txt_absence.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value).ToString();
                     txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value)).ToString();
-             
+
+                    salary_for_tax = Convert.ToDouble(txt_salary.Text);
+                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
+                    {
+                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                        txt_tax.Text = Math.Round(tax).ToString();
+                    }
+                    else
+                    {
+                        txt_tax.Text = "0";
+                    }
 
                 }
                 else if (dataGridView1.CurrentRow.Cells[4].Value.ToString() == "مقيم")
@@ -795,42 +790,40 @@ namespace client.PL
 
                    // txt_salary.Text = (Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text)).ToString();
 
-                    txt_extra.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
-
-                    txt_over.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
-
+                    //txt_extra.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
+                    //txt_over.Text = ((Convert.ToDouble(dataGridView1.CurrentRow.Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
 
 
 
-                    txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
-                        Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text) + Convert.ToDouble(txt_adds.Text)
-                        ).ToString();
+                    txt_lateness_value.Text = "0";
+                    txt_all_merit.Text = 
+                        ( Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
 
-                    txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 6) * (Convert.ToDouble(dataGridView1.CurrentRow.Cells[14].Value))).ToString();
                     txt_absence.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value).ToString();
                     txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value)).ToString();
-                  
+
+                    salary_for_tax = Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text);
+                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
+                    {
+                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                        txt_tax.Text = Math.Round(tax).ToString();
+                    }
+                    else
+                    {
+                        txt_tax.Text = "0";
+                    }
                 }
                 else if (dataGridView1.CurrentRow.Cells[4].Value.ToString() == "شيفت")
                 {
                     txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
-                   Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) ).ToString();
+                   Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
 
 
-                    // ضربت قيمة الجزا في 5 في قيمة الشيفت الصباحي في عدد مرات الجزا
-                    txt_lateness_value.Text = ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) / 6) * (Convert.ToDouble(dataGridView1.CurrentRow.Cells[14].Value))).ToString();
+                    txt_lateness_value.Text = ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) / 8) * (Convert.ToDouble(dataGridView1.CurrentRow.Cells[14].Value))).ToString();
                     txt_absence.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value).ToString();
                     txt_absence_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value)).ToString();
-                }
-
-                txt_loan.Text = (Convert.ToDouble(dataGridView1.CurrentRow.Cells[16].Value)).ToString();
-                txt_emp_insurance.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[20].Value).ToString();
-
-                double salary_for_tax = 0.0;
-                double tax = 0.0;
-                salary_for_tax = ((Convert.ToDouble(txt_am_shift_value.Text) + Convert.ToDouble(txt_pm_shift_value.Text)));
-                if (dataGridView1.CurrentRow.Cells[4].Value.ToString() == "شيفت")
-                {
+                    salary_for_tax = ((Convert.ToDouble(txt_am_shift_value.Text) + Convert.ToDouble(txt_pm_shift_value.Text)));
+              
                     if (salary_for_tax >= 1250)
                     {
                         tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
@@ -842,45 +835,23 @@ namespace client.PL
                     }
                 }
 
-                else if ((dataGridView1.CurrentRow.Cells[4].Value.ToString() == "راتب"))
-                {
-                    salary_for_tax = Convert.ToDouble(txt_salary.Text);
-                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                    {
-                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                        txt_tax.Text = Math.Round(tax).ToString();
-                    }
-                    else
-                    {
-                        txt_tax.Text = "0";
-                    }
-                }
+                txt_loan.Text = (Convert.ToDouble(dataGridView1.CurrentRow.Cells[16].Value)).ToString();
+                txt_emp_insurance.Text = Convert.ToDouble(dataGridView1.CurrentRow.Cells[20].Value).ToString();
 
-                else if ((dataGridView1.CurrentRow.Cells[4].Value.ToString() == "مقيم"))
-                {
-                    salary_for_tax = Convert.ToDouble(txt_salary.Text);
-                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                    {
-                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                        txt_tax.Text = Math.Round(tax).ToString();
-                    }
-                    else
-                    {
-                        txt_tax.Text = "0";
-                    }
-                }
+               
 
 
 
                 txt_all_deduction.Text = (Convert.ToDouble(txt_lateness_value.Text) + Convert.ToDouble(txt_absence_value.Text) + Convert.ToDouble(txt_tax.Text) +
-                   +Convert.ToDouble(txt_loan.Text) + Convert.ToDouble(txt_emp_insurance.Text)).ToString();
-                 if (rd_fans.Checked)
+                   +Convert.ToDouble(txt_loan.Text) + Convert.ToDouble(txt_emp_insurance.Text) + Convert.ToDouble(txt_fans.Text)).ToString();
+                 
+                if (rd_fans.Checked)
                 {
-                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) - Convert.ToDouble(txt_adds.Text)).ToString();
+                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) - Convert.ToDouble(txt_other.Text)).ToString();
                 }
                 else if (rd_add.Checked)
                 {
-                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
+                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) + Convert.ToDouble(txt_other.Text)).ToString();
 
                 }
                 else
@@ -1027,172 +998,154 @@ namespace client.PL
                 if (frm.state == "confirm_sallary")
                 {
                     Cursor.Current = Cursors.WaitCursor;
-                    clearboxees();
+                    
                     ///////////////////////////////////////////////////////////////////////////////
                     for (int i = 0; i < dataGridView1.Rows.Count; i++)
                     {
+                        
 
 
                         clearboxees();
 
-                        txt_salary.Text = "0.0";
-                        txt_adds.Text = "0.0";
-                        int depart_role_id;
+                txt_salary.Text = "0.0";
+                txt_adds.Text = "0.0";
+                int depart_role_id;
+                double salary_for_tax = 0.0;
+                double tax = 0.0;
+
+            /*
+             احنا عاملين الاضافي اسمه اكسترااااااااااااااا وبيضرب في واحد ونص
+             */
+              
+             
+
+                txt_emp_id.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                txt_emp_name.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
+            
+                combo_role.SelectedItem = dataGridView1.Rows[i].Cells[2].Value.ToString();
+                combo_department.SelectedItem = dataGridView1.Rows[i].Cells[3].Value.ToString();
+                combo_type_of_salary.SelectedItem = dataGridView1.Rows[i].Cells[4].Value.ToString();
+                depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(combo_department.SelectedItem.ToString(), combo_role.SelectedItem.ToString()).Rows[0][0]);
+                txt_am_shift_number.Text = dataGridView1.Rows[i].Cells[9].Value.ToString();
+                txt_am_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(txt_am_shift_number.Text)).ToString();
+                txt_pm_shift_number.Text = dataGridView1.Rows[i].Cells[10].Value.ToString();
+                txt_pm_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]) * Convert.ToDouble(txt_pm_shift_number.Text)).ToString();
+                txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5).ToString();
+                txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]))).ToString();
+                txt_Incentives.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[13].Value).ToString();
+                txt_adds.Text = (dataGridView1.Rows[i].Cells[21].Value).ToString();   //client.getCleint().Rows[Convert.ToInt32(txt_emp_id.Text+1)][21].ToString();
+                txt_type_of_adds.Text = dataGridView1.Rows[i].Cells[22].Value.ToString();
+                txt_fans.Text = dataGridView1.Rows[i].Cells[23].Value.ToString();
+                txt_type_of_fans.Text = dataGridView1.Rows[i].Cells[24].Value.ToString();
+                txt_other.Text = dataGridView1.Rows[i].Cells[25].Value.ToString();
+                txt_type_of_other.Text = dataGridView1.Rows[i].Cells[26].Value.ToString();
+                txt_value_of_stay.Text = dataGridView1.Rows[i].Cells[7].Value.ToString();
+                txt_lateness.Text = dataGridView1.Rows[i].Cells[14].Value.ToString();
+                txt_no_of_staying_hours.Text = (Convert.ToDouble(dataGridView1.Rows[i].Cells[8].Value) /24).ToString();
+
+                if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "راتب")
+                {
 
 
 
-                        txt_emp_id.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
-                        txt_emp_name.Text = dataGridView1.Rows[i].Cells[1].Value.ToString();
-
-                        combo_role.SelectedItem = dataGridView1.Rows[i].Cells[2].Value.ToString();
-                        combo_department.SelectedItem = dataGridView1.Rows[i].Cells[3].Value.ToString();
-                        combo_type_of_salary.SelectedItem = dataGridView1.Rows[i].Cells[4].Value.ToString();
-                        depart_role_id = Convert.ToInt32(client.get_id_of_deparment_and_role(combo_department.SelectedItem.ToString(), combo_role.SelectedItem.ToString()).Rows[0][0]);
-
-
-                        txt_am_shift_number.Text = dataGridView1.Rows[i].Cells[9].Value.ToString();
-                        txt_am_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(txt_am_shift_number.Text)).ToString();
-                        txt_pm_shift_number.Text = dataGridView1.Rows[i].Cells[10].Value.ToString();
-                        txt_pm_shift_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][5]) * Convert.ToDouble(txt_pm_shift_number.Text)).ToString();
-                        txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4])) * 1.5).ToString();
-
-                        txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]))).ToString();
-                        txt_Incentives.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[13].Value).ToString();
-
-                        txt_adds.Text = (dataGridView1.Rows[i].Cells[21].Value).ToString();   //client.getCleint().Rows[Convert.ToInt32(txt_emp_id.Text+1)][21].ToString();
-                        txt_type_of_adds.Text = dataGridView1.Rows[i].Cells[22].Value.ToString();
-                        txt_fans.Text = dataGridView1.Rows[i].Cells[23].Value.ToString();
-                        txt_type_of_fans.Text = dataGridView1.Rows[i].Cells[24].Value.ToString();
-                        txt_other.Text = dataGridView1.Rows[i].Cells[25].Value.ToString();
-                        txt_type_of_other.Text = dataGridView1.Rows[i].Cells[26].Value.ToString();
-                        txt_value_of_stay.Text = dataGridView1.Rows[i].Cells[7].Value.ToString();
-                        txt_lateness.Text = dataGridView1.Rows[i].Cells[14].Value.ToString();
-                        txt_no_of_staying_hours.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[8].Value).ToString();
-
-                        if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "راتب")
-                        {
+                    txt_salary.Text = client.get_sallary_with_client_id(Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value)).Rows[0][0].ToString();
+                    txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
+                    txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
+                    txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
+                        Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_salary.Text) + Convert.ToDouble(txt_adds.Text)
+                        ).ToString();
 
 
+                    txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 8) * (Convert.ToDouble(dataGridView1.Rows[i].Cells[14].Value))).ToString();
+                    txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
+                    txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
 
+                    salary_for_tax = Convert.ToDouble(txt_salary.Text);
+                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
+                    {
+                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                        txt_tax.Text = Math.Round(tax).ToString();
+                    }
+                    else
+                    {
+                        txt_tax.Text = "0";
+                    }
 
+                }
+                else if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "مقيم")
+                {
 
-                            txt_salary.Text = client.get_sallary_with_client_id(Convert.ToInt32(dataGridView1.Rows[i].Cells[0].Value)).Rows[0][0].ToString();
+                   // txt_salary.Text = (Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text)).ToString();
+
+                    //txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
+                    //txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
 
 
 
+                    txt_lateness_value.Text = "0";
+                    txt_all_merit.Text = 
+                        ( Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
+
+                    txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
+                    txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
+
+                    salary_for_tax = Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text);
+                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
+                    {
+                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                        txt_tax.Text = Math.Round(tax).ToString();
+                    }
+                    else
+                    {
+                        txt_tax.Text = "0";
+                    }
+                }
+                else if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "شيفت")
+                {
+                    txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
+                   Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
 
 
-                            txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
-                                Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_salary.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
+                     txt_lateness_value.Text = ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) / 8) * (Convert.ToDouble(dataGridView1.Rows[i].Cells[14].Value))).ToString();
+                    txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
+                    txt_absence_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
+                    salary_for_tax = ((Convert.ToDouble(txt_am_shift_value.Text) + Convert.ToDouble(txt_pm_shift_value.Text)));
+              
+                    if (salary_for_tax >= 1250)
+                    {
+                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                        txt_tax.Text = Math.Round(tax).ToString();
+                    }
+                    else
+                    {
+                        txt_tax.Text = "0";
+                    }
+                }
 
+                txt_loan.Text = (Convert.ToDouble(dataGridView1.Rows[i].Cells[16].Value)).ToString();
+                txt_emp_insurance.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[20].Value).ToString();
 
-                            txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 6) * (Convert.ToDouble(dataGridView1.Rows[i].Cells[14].Value))).ToString();
-                            txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
-                            txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
-                            txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
-
-                            txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
-
-
-                        }
-                        else if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "مقيم")
-                        {
-
-                            //txt_salary.Text = (Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text)).ToString();
-
-
-                            txt_extra.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[11].Value)) * (Convert.ToDouble(txt_salary.Text) / 30) * 1.5).ToString();
-
-                            txt_over.Text = ((Convert.ToDouble(dataGridView1.Rows[i].Cells[12].Value)) * (Convert.ToDouble(txt_salary.Text) / 30)).ToString();
-
-
-
-                            txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
-                         Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text) + Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text) + Convert.ToDouble(txt_adds.Text)
-                         ).ToString();
-
-                            txt_lateness_value.Text = (((Convert.ToDouble(txt_salary.Text) / 30) / 8) * (Convert.ToDouble(dataGridView1.Rows[i].Cells[14].Value))).ToString();
-                            txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
-                            txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
-                          
-                        }
-                        else if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "شيفت")
-                        {
-                            txt_all_merit.Text = (Convert.ToDouble(txt_over.Text) + Convert.ToDouble(txt_extra.Text) + Convert.ToDouble(txt_am_shift_value.Text) +
-                           Convert.ToDouble(txt_pm_shift_value.Text) + Convert.ToDouble(txt_Incentives.Text)).ToString();
-
-
-                            // ضربت قيمة الجزا في 5 في قيمة الشيفت الصباحي في عدد مرات الجزا
-                            txt_lateness_value.Text = ((Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) / 8) * (Convert.ToDouble(dataGridView1.Rows[i].Cells[14].Value))).ToString();
-                            txt_absence.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value).ToString();
-                            txt_absence_value.Text = (Convert.ToDouble(client.getConstants(depart_role_id).Rows[0][4]) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
-                        }
-
-                        txt_loan.Text = (Convert.ToDouble(dataGridView1.Rows[i].Cells[16].Value)).ToString();
-                        txt_emp_insurance.Text = Convert.ToDouble(dataGridView1.Rows[i].Cells[20].Value).ToString();
-
-                        double salary_for_tax = 0.0;
-                        double tax = 0.0;
-                        salary_for_tax = ((Convert.ToDouble(txt_am_shift_value.Text) + Convert.ToDouble(txt_pm_shift_value.Text)));
-                        if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "شيفت")
-                        {
-                            if (salary_for_tax >= 1250)
-                            {
-                                tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                                txt_tax.Text = Math.Round(tax).ToString();
-                            }
-                            else
-                            {
-                                txt_tax.Text = "0";
-                            }
-                        }
-
-                        else if ((dataGridView1.Rows[i].Cells[4].Value.ToString() == "راتب"))
-                        {
-                            salary_for_tax = Convert.ToDouble(txt_salary.Text);
-                            if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                            {
-                                tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                                txt_tax.Text = Math.Round(tax).ToString();
-                            }
-                            else
-                            {
-                                txt_tax.Text = "0";
-                            }
-                        }
-
-                        else if ((dataGridView1.Rows[i].Cells[4].Value.ToString() == "مقيم"))
-                        {
-                            salary_for_tax = Convert.ToDouble(txt_salary.Text);
-                            if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                            {
-                                tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                                txt_tax.Text = Math.Round(tax).ToString();
-                            }
-                            else
-                            {
-                                txt_tax.Text = "0";
-                            }
-                        }
+               
 
 
 
-                        txt_all_deduction.Text = (Convert.ToDouble(txt_lateness_value.Text) + Convert.ToDouble(txt_absence_value.Text) + Convert.ToDouble(txt_tax.Text) +
-                           +Convert.ToDouble(txt_loan.Text) + Convert.ToDouble(txt_emp_insurance.Text)).ToString();
-                        if (rd_fans.Checked)
-                        {
-                            txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) - Convert.ToDouble(txt_adds.Text)).ToString();
-                        }
-                        else if (rd_add.Checked)
-                        {
-                            txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) + Convert.ToDouble(txt_adds.Text)).ToString();
+                txt_all_deduction.Text = (Convert.ToDouble(txt_lateness_value.Text) + Convert.ToDouble(txt_absence_value.Text) + Convert.ToDouble(txt_tax.Text) +
+                   +Convert.ToDouble(txt_loan.Text) + Convert.ToDouble(txt_emp_insurance.Text) + Convert.ToDouble(txt_fans.Text)).ToString();
+                 
+                if (rd_fans.Checked)
+                {
+                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) - Convert.ToDouble(txt_other.Text)).ToString();
+                }
+                else if (rd_add.Checked)
+                {
+                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text) + Convert.ToDouble(txt_other.Text)).ToString();
 
-                        }
-                        else
-                        {
-                            txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text)).ToString();
-                        }
-
+                }
+                else
+                {
+                    txt_last_salary.Text = (Convert.ToDouble(txt_all_merit.Text) - Convert.ToDouble(txt_all_deduction.Text)).ToString();
+                }
+            
 
                         client.add_overall(Convert.ToInt32(txt_emp_id.Text), 
                             txt_emp_name.Text, combo_department.SelectedItem.ToString(),

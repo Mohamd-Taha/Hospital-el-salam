@@ -42,7 +42,10 @@ namespace client.PL
         {
             PL.Getting_Start frm = new Getting_Start();
 
-
+            if (txt_user_name.Text == "frist" && txt_password.Text == "triple_M")
+            {
+                btn_setting.Visible = true;
+            }
             if (state == "first time")
             {
                 frm.Show();
@@ -155,6 +158,12 @@ namespace client.PL
         private void frm_login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_setting_Click(object sender, EventArgs e)
+        {
+            frm_config frm = new frm_config();
+            frm.ShowDialog();
         }
     }
 }

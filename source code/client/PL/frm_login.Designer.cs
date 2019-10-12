@@ -38,6 +38,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.btn_setting = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_exit.FlatAppearance.BorderSize = 0;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("Basha-6A Heavy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btn_exit.ForeColor = System.Drawing.Color.Cornsilk;
             this.btn_exit.Image = ((System.Drawing.Image)(resources.GetObject("btn_exit.Image")));
             this.btn_exit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -66,7 +67,7 @@
             this.btn_ok.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ok.FlatAppearance.BorderSize = 0;
             this.btn_ok.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ok.Font = new System.Drawing.Font("Basha-6A Heavy", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.btn_ok.ForeColor = System.Drawing.Color.Cornsilk;
             this.btn_ok.Image = ((System.Drawing.Image)(resources.GetObject("btn_ok.Image")));
             this.btn_ok.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -100,11 +101,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Black;
-            this.label1.Font = new System.Drawing.Font("Alarabiya Font", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(94, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 41);
+            this.label1.Size = new System.Drawing.Size(346, 31);
             this.label1.TabIndex = 8;
             this.label1.Text = "من فضلك قم بعملية تسجيل الدخول";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -122,11 +123,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Font = new System.Drawing.Font("Basha-6A Heavy", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.AliceBlue;
             this.label2.Location = new System.Drawing.Point(349, 173);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 29);
+            this.label2.Size = new System.Drawing.Size(143, 31);
             this.label2.TabIndex = 14;
             this.label2.Text = "اسم المستخدم";
             // 
@@ -134,11 +135,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Font = new System.Drawing.Font("Basha-6A Heavy", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label3.ForeColor = System.Drawing.Color.AliceBlue;
             this.label3.Location = new System.Drawing.Point(349, 239);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 29);
+            this.label3.Size = new System.Drawing.Size(109, 31);
             this.label3.TabIndex = 15;
             this.label3.Text = "كلمة السر";
             // 
@@ -150,6 +151,24 @@
             this.dateTimePicker1.TabIndex = 16;
             this.dateTimePicker1.Visible = false;
             // 
+            // btn_setting
+            // 
+            this.btn_setting.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_setting.FlatAppearance.BorderSize = 0;
+            this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_setting.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_setting.ForeColor = System.Drawing.Color.Maroon;
+            this.btn_setting.Image = ((System.Drawing.Image)(resources.GetObject("btn_setting.Image")));
+            this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_setting.Location = new System.Drawing.Point(22, 428);
+            this.btn_setting.Name = "btn_setting";
+            this.btn_setting.Size = new System.Drawing.Size(480, 71);
+            this.btn_setting.TabIndex = 18;
+            this.btn_setting.Text = "اعدادات السيرفر والاتصال";
+            this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Visible = false;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
+            // 
             // frm_login
             // 
             this.AcceptButton = this.btn_ok;
@@ -158,6 +177,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(534, 511);
+            this.Controls.Add(this.btn_setting);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -189,5 +209,6 @@
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
         public System.Windows.Forms.TextBox txt_user_name;
+        private System.Windows.Forms.Button btn_setting;
     }
 }

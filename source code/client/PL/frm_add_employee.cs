@@ -510,7 +510,7 @@ namespace client.PL
 
         private void frm_add_employee_Resize(object sender, EventArgs e)
         {
-            //resizeControlers();
+            resizeControlers();
         }
     }
 }

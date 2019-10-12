@@ -42,6 +42,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.btn_add_excel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -118,7 +119,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(258, 317);
+            this.dateTimePicker1.Location = new System.Drawing.Point(268, 553);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 49;
@@ -136,11 +137,10 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(210, 65);
             this.button5.TabIndex = 50;
-            this.button5.Text = "موظفي المستشفي";
+            this.button5.Text = "البيانات الاساسيه";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-          this.button5.Resize += new System.EventHandler(this.button5_Resize);
             // 
             // button6
             // 
@@ -165,7 +165,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(406, 279);
+            this.label1.Location = new System.Drawing.Point(416, 515);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 52;
@@ -261,12 +261,31 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // btn_add_excel
+            // 
+            this.btn_add_excel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_add_excel.FlatAppearance.BorderSize = 0;
+            this.btn_add_excel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add_excel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.btn_add_excel.ForeColor = System.Drawing.Color.White;
+            this.btn_add_excel.Image = ((System.Drawing.Image)(resources.GetObject("btn_add_excel.Image")));
+            this.btn_add_excel.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_add_excel.Location = new System.Drawing.Point(268, 247);
+            this.btn_add_excel.Name = "btn_add_excel";
+            this.btn_add_excel.Size = new System.Drawing.Size(220, 114);
+            this.btn_add_excel.TabIndex = 59;
+            this.btn_add_excel.Text = "تصدير ملف الاكسل";
+            this.btn_add_excel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_add_excel.UseVisualStyleBackColor = true;
+            this.btn_add_excel.Click += new System.EventHandler(this.btn_add_excel_Click);
+            // 
             // frm_reports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(493, 614);
+            this.Controls.Add(this.btn_add_excel);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button11);
@@ -287,7 +306,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "التقارير عن الموظفين";
             this.Load += new System.EventHandler(this.frm_reports_Load);
-            this.Resize += new System.EventHandler(this.frm_reports_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,5 +326,6 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btn_add_excel;
     }
 }
