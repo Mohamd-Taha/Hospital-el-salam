@@ -26,70 +26,6 @@ namespace client.PL
         private void frm_view_role_and_departmetn_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = client.get_role_and_department();
- orginalSize = this.Size;
-            groupBox1OriginalArea = new Rectangle(groupBox1.Location.X, groupBox1.Location.Y, groupBox1.Width, groupBox1.Height);
-            label2OriginalAre = new Rectangle(label2.Location.X, label2.Location.Y, label2.Width, label2.Height);
-            label1OriginalArea = new Rectangle(label1.Location.X, label1.Location.Y, label1.Width, label1.Height);
-            label3OriginalArea = new Rectangle(label3.Location.X, label3.Location.Y, label3.Width, label3.Height);
-            txt_idOriginalArea = new Rectangle(txt_id.Location.X, txt_id.Location.Y, txt_id.Width, txt_id.Height);
-            txt_roleOriginalArea = new Rectangle(txt_role.Location.X, txt_role.Location.Y, txt_role.Width, txt_role.Height);
-            txt_departmentOriginalArea = new Rectangle(txt_department.Location.X, txt_department.Location.Y, txt_department.Width, txt_department.Height);
-            groupBox2OriginalArea = new Rectangle(groupBox2.Location.X, groupBox2.Location.Y, groupBox2.Width, groupBox2.Height);
-            dataGridView1OriginalArea = new Rectangle(dataGridView1.Location.X, dataGridView1.Location.Y, dataGridView1.Width, dataGridView1.Height);
-            groupBox3OriginalArea = new Rectangle(groupBox3.Location.X, groupBox3.Location.Y, groupBox3.Width, groupBox3.Height);
-            btn_saveOriginalArea = new Rectangle(btn_save.Location.X, btn_save.Location.Y, btn_save.Width, btn_save.Height);
-            btn_editOriginalArea = new Rectangle(btn_edit.Location.X, btn_edit.Location.Y, btn_edit.Width, btn_edit.Height);
-            btn_deleteOriginalArea = new Rectangle(btn_delete.Location.X, btn_delete.Location.Y, btn_delete.Width, btn_delete.Height);
-            btn_exitOriginalArea = new Rectangle(btn_exit.Location.X, btn_exit.Location.Y, btn_exit.Width, btn_exit.Height);
-
-        }
-        private Rectangle groupBox1OriginalArea;
-        private Rectangle label2OriginalAre;
-        private Rectangle label1OriginalArea;
-        private Rectangle label3OriginalArea;
-        private Rectangle txt_idOriginalArea;
-        private Rectangle txt_roleOriginalArea;
-        private Rectangle txt_departmentOriginalArea;
-        private Rectangle groupBox2OriginalArea;
-        private Rectangle dataGridView1OriginalArea;
-        private Rectangle groupBox3OriginalArea;
-        private Rectangle btn_saveOriginalArea;
-        private Rectangle btn_editOriginalArea;
-        private Rectangle btn_deleteOriginalArea;
-        private Rectangle btn_exitOriginalArea;
-        private Size orginalSize;
-
-        private void resizeControlers()
-        {
-            resizeControler(groupBox1OriginalArea, groupBox1);
-            resizeControler(label2OriginalAre, label2);
-            resizeControler(label1OriginalArea, label1);
-            resizeControler(label3OriginalArea, label3);
-            resizeControler(txt_idOriginalArea, txt_id);
-            resizeControler(txt_roleOriginalArea, txt_role);
-            resizeControler(txt_departmentOriginalArea, txt_department);
-            resizeControler(groupBox2OriginalArea, groupBox2);
-            resizeControler(dataGridView1OriginalArea, dataGridView1);
-            resizeControler(groupBox3OriginalArea, groupBox3);
-            resizeControler(btn_saveOriginalArea, btn_save);
-            resizeControler(btn_editOriginalArea, btn_edit);
-            resizeControler(btn_deleteOriginalArea, btn_delete);
-            resizeControler(btn_exitOriginalArea, btn_exit);
-
-        }
-        private void resizeControler(Rectangle orginalControlerRect, Control control)
-        {
-            float xRetio = (float)(this.Width / (float)(orginalSize.Width));
-            float yRetio = (float)(this.Height / (float)(orginalSize.Height));
-
-            int newX = (int)(orginalControlerRect.X * xRetio);
-            int newY = (int)(orginalControlerRect.Y * yRetio);
-
-            int newWidth = (int)(orginalControlerRect.Width * xRetio);
-            int newHeight = (int)(orginalControlerRect.Height * yRetio);
-
-            control.Location = new Point(newX, newY);
-            control.Size = new Size(newWidth, newHeight);
         }
 
         private void dataGridView1_Click(object sender, EventArgs e)
@@ -151,11 +87,6 @@ namespace client.PL
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }
-
-        private void frm_view_role_and_department_Resize(object sender, EventArgs e)
-        {
-            //resizeControlers();
         }
     }
 }

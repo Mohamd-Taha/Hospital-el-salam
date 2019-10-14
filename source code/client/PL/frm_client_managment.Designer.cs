@@ -413,7 +413,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_client_managment";
             this.Load += new System.EventHandler(this.frm_client_managment_Load);
-            this.Resize += new System.EventHandler(this.frm_client_managment_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.data_clients)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.data_filltered)).EndInit();
             this.groupBox1.ResumeLayout(false);

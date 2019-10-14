@@ -119,9 +119,10 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(268, 553);
+            this.dateTimePicker1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(240, 341);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 30);
             this.dateTimePicker1.TabIndex = 49;
             // 
             // button5
@@ -165,7 +166,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(416, 515);
+            this.label1.Location = new System.Drawing.Point(324, 296);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 20);
             this.label1.TabIndex = 52;
@@ -198,7 +199,7 @@
             this.button8.ForeColor = System.Drawing.Color.Transparent;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(12, 481);
+            this.button8.Location = new System.Drawing.Point(12, 475);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(210, 65);
             this.button8.TabIndex = 54;
@@ -216,13 +217,14 @@
             this.button9.ForeColor = System.Drawing.Color.Transparent;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(229, 155);
+            this.button9.Location = new System.Drawing.Point(192, 575);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(210, 65);
             this.button9.TabIndex = 57;
             this.button9.Text = "الاطباء";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Visible = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
@@ -234,13 +236,14 @@
             this.button10.ForeColor = System.Drawing.Color.Transparent;
             this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(229, 87);
+            this.button10.Location = new System.Drawing.Point(109, 575);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(210, 65);
             this.button10.TabIndex = 56;
             this.button10.Text = "الرواتب";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Visible = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
@@ -252,13 +255,14 @@
             this.button11.ForeColor = System.Drawing.Color.Transparent;
             this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(228, 27);
+            this.button11.Location = new System.Drawing.Point(21, 563);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(210, 65);
             this.button11.TabIndex = 55;
             this.button11.Text = "الشفتات";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Visible = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // btn_add_excel
@@ -270,9 +274,9 @@
             this.btn_add_excel.ForeColor = System.Drawing.Color.White;
             this.btn_add_excel.Image = ((System.Drawing.Image)(resources.GetObject("btn_add_excel.Image")));
             this.btn_add_excel.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_add_excel.Location = new System.Drawing.Point(268, 247);
+            this.btn_add_excel.Location = new System.Drawing.Point(242, 64);
             this.btn_add_excel.Name = "btn_add_excel";
-            this.btn_add_excel.Size = new System.Drawing.Size(220, 114);
+            this.btn_add_excel.Size = new System.Drawing.Size(198, 155);
             this.btn_add_excel.TabIndex = 59;
             this.btn_add_excel.Text = "تصدير ملف الاكسل";
             this.btn_add_excel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -284,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(493, 614);
+            this.ClientSize = new System.Drawing.Size(447, 542);
             this.Controls.Add(this.btn_add_excel);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button10);
@@ -306,7 +310,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "التقارير عن الموظفين";
             this.Load += new System.EventHandler(this.frm_reports_Load);
-            this.Resize += new System.EventHandler(this.frm_reports_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 

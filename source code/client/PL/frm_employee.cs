@@ -13,6 +13,10 @@ namespace client.PL
 {
     public partial class frm_employee : Form
     {
+        SqlConnection con = new SqlConnection();
+
+         
+
         void clearboxees()
         {
             txt_am_shift_number.Clear();
@@ -126,9 +130,13 @@ namespace client.PL
         {
             this.Close();
         }
+        //sqlconnection = new SqlConnection(@"Server=" + Properties.Settings.Default.Server + "; DataBase=" + Properties.Settings.Default.DataBase + ";Integrated security = false; User ID=" + Properties.Settings.Default.User_Name + ";password=" + Properties.Settings.Default.Password + "");
 
         private void frm_employee_Load(object sender, EventArgs e)
-        { using (SqlConnection con = new SqlConnection(@"server=" + Properties.Settings.Default.Server + "; DataBase=" + Properties.Settings.Default.DataBase + ";Integrated security = true "))
+        {
+            using (
+       con =new SqlConnection(@"Server=" + Properties.Settings.Default.Server + "; DataBase=" + Properties.Settings.Default.DataBase + ";Integrated security = false; User ID=" + Properties.Settings.Default.User_Name + ";password=" + Properties.Settings.Default.Password + "")
+)
             {
                 SqlCommand cmd = new SqlCommand("Select Name From Client",con);
                 con.Open();
@@ -754,7 +762,7 @@ namespace client.PL
                 txt_type_of_other.Text = dataGridView1.CurrentRow.Cells[26].Value.ToString();
                 txt_value_of_stay.Text = dataGridView1.CurrentRow.Cells[7].Value.ToString();
                 txt_lateness.Text = dataGridView1.CurrentRow.Cells[14].Value.ToString();
-                txt_no_of_staying_hours.Text = (Convert.ToDouble(dataGridView1.CurrentRow.Cells[8].Value) /24).ToString();
+                txt_no_of_staying_hours.Text = (Convert.ToDouble(dataGridView1.CurrentRow.Cells[8].Value)).ToString();
 
                 if (dataGridView1.CurrentRow.Cells[4].Value.ToString() == "راتب")
                 {
@@ -803,15 +811,12 @@ namespace client.PL
                     txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.CurrentRow.Cells[18].Value)).ToString();
 
                     salary_for_tax = Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text);
-                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                    {
-                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
+                  
+                        tax = Math.Round(salary_for_tax*0.1);
                         txt_tax.Text = Math.Round(tax).ToString();
-                    }
-                    else
-                    {
-                        txt_tax.Text = "0";
-                    }
+                 
+                  
+                   
                 }
                 else if (dataGridView1.CurrentRow.Cells[4].Value.ToString() == "شيفت")
                 {
@@ -1041,7 +1046,7 @@ namespace client.PL
                 txt_type_of_other.Text = dataGridView1.Rows[i].Cells[26].Value.ToString();
                 txt_value_of_stay.Text = dataGridView1.Rows[i].Cells[7].Value.ToString();
                 txt_lateness.Text = dataGridView1.Rows[i].Cells[14].Value.ToString();
-                txt_no_of_staying_hours.Text = (Convert.ToDouble(dataGridView1.Rows[i].Cells[8].Value) /24).ToString();
+                txt_no_of_staying_hours.Text = (Convert.ToDouble(dataGridView1.Rows[i].Cells[8].Value)).ToString();
 
                 if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "راتب")
                 {
@@ -1090,15 +1095,8 @@ namespace client.PL
                     txt_absence_value.Text = ((Convert.ToDouble(txt_salary.Text) / 30) * Convert.ToDouble(dataGridView1.Rows[i].Cells[18].Value)).ToString();
 
                     salary_for_tax = Convert.ToDouble(txt_value_of_stay.Text) * Convert.ToDouble(txt_no_of_staying_hours.Text);
-                    if (Convert.ToDouble(txt_salary.Text) >= 1250)
-                    {
-                        tax = Math.Round(((((salary_for_tax * 12) - 15000.0) / 12) * 0.015));
-                        txt_tax.Text = Math.Round(tax).ToString();
-                    }
-                    else
-                    {
-                        txt_tax.Text = "0";
-                    }
+                    tax = Math.Round(salary_for_tax * 0.1);
+                    txt_tax.Text = Math.Round(tax).ToString();
                 }
                 else if (dataGridView1.Rows[i].Cells[4].Value.ToString() == "شيفت")
                 {

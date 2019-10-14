@@ -218,6 +218,7 @@ namespace client.PL
         {
             frm_employee frm = new frm_employee();
             Cursor.Current = Cursors.WaitCursor;
+            frm.dataGridView1.DataSource = null;
             frm.dataGridView1.DataSource = client.getCleint();
             for (int i = 0; i < client.get_role_and_department().Rows.Count; i++)
             {
@@ -301,8 +302,8 @@ namespace client.PL
 
             
 
-          // try
-           // {
+           try
+           {
                 for (int i = 0; i < dt_exel.Rows.Count - 1; i++)
                 {
 
@@ -396,15 +397,10 @@ namespace client.PL
                        
                         
                             double tax = 0;
-                            if ((no_of_hours * value_of_stay) >= 1250)
-                            {
-                                tax = ((((no_of_hours * value_of_stay * 12) - 15000.0) / 12) * 0.015);
+                            
+                               // tax = ((((no_of_hours * value_of_stay * 12) - 15000.0) / 12) * 0.015);
+                                tax = 0.1 * value_of_stay * no_of_hours;
                                 client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), tax);
-                            }
-                            else
-                            {
-                                client.update_tax_for_month(dateTimePicker1.Value, Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value), 0);
-                            }
                         
                         client.addDeduction(dateTimePicker1.Value, Convert.ToDouble(dt_exel.Rows[i].Cells[8].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[9].Value), Convert.ToDouble(dt_exel.Rows[i].Cells[10].Value), Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)
                      , ((Convert.ToDouble(client.get_value_of_stay_with_client_id(Convert.ToInt32(dt_exel.Rows[i].Cells[0].Value)).Rows[0][0]) * Convert.ToDouble(dt_exel.Rows[i].Cells[13].Value) / 30.0) * Convert.ToInt32(dt_exel.Rows[i].Cells[11].Value)),
@@ -423,21 +419,16 @@ namespace client.PL
                 Cursor.Current = Cursors.Default;
 
            
-               /*if (start == end)
-                {
-                    MessageBox.Show("لم يتم اضافة اي بايانات تأكد انك قمت بإضافة ملف الاكسيل", "لا توجد بايانات", MessageBoxButtons.OK);
-                }
-                else
-                {*/
+              
                     MessageBox.Show("تمت عملية الاضافة الي قاعدة البيانات بنجاح", "تم الاضافة", MessageBoxButtons.OK);
-               //}
+               
 
-            /*}catch(IndexOutOfRangeException)
+           }catch(IndexOutOfRangeException)
             {
 
                 MessageBox.Show("تأكد انك قمت بإضافة جميع الاقسم في البرنامج وتعريف ثوابتها" , "فشلت عملية الاضافة", MessageBoxButtons.OK);
             
-            }*/
+            }
       
         }
 
@@ -517,7 +508,7 @@ namespace client.PL
 
         private void Getting_Start_Resize(object sender, EventArgs e)
         {
-            //resizeControlers();
+            resizeControlers();
 
         }
     }

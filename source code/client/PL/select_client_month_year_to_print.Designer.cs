@@ -99,7 +99,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(58, 37);
+            this.label2.Location = new System.Drawing.Point(50, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 20);
             this.label2.TabIndex = 52;
@@ -194,24 +194,24 @@
             // 
             this.rad_motions.AutoSize = true;
             this.rad_motions.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_motions.Location = new System.Drawing.Point(201, 63);
+            this.rad_motions.Location = new System.Drawing.Point(178, 63);
             this.rad_motions.Name = "rad_motions";
-            this.rad_motions.Size = new System.Drawing.Size(127, 23);
+            this.rad_motions.Size = new System.Drawing.Size(155, 23);
             this.rad_motions.TabIndex = 6;
             this.rad_motions.TabStop = true;
-            this.rad_motions.Text = "from_motions";
+            this.rad_motions.Text = "من الحركات اليوميه";
             this.rad_motions.UseVisualStyleBackColor = true;
             // 
             // rad_over_all
             // 
             this.rad_over_all.AutoSize = true;
             this.rad_over_all.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rad_over_all.Location = new System.Drawing.Point(202, 19);
+            this.rad_over_all.Location = new System.Drawing.Point(178, 19);
             this.rad_over_all.Name = "rad_over_all";
-            this.rad_over_all.Size = new System.Drawing.Size(126, 23);
+            this.rad_over_all.Size = new System.Drawing.Size(145, 23);
             this.rad_over_all.TabIndex = 5;
             this.rad_over_all.TabStop = true;
-            this.rad_over_all.Text = "from_over_all";
+            this.rad_over_all.Text = "من شيت الاكسل";
             this.rad_over_all.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -272,7 +272,6 @@
             this.Name = "select_client_month_year_to_print";
             this.Text = "select_client_month_year_to_print";
             this.Load += new System.EventHandler(this.select_client_month_year_to_print_Load);
-            this.Resize += new System.EventHandler(this.select_client_month_year_to_print_Resize);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -338,7 +338,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "المستخدمون";
             this.Load += new System.EventHandler(this.frm_users_Load);
-            this.Resize += new System.EventHandler(this.frm_users_Resize);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);

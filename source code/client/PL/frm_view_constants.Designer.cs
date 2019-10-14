@@ -377,7 +377,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "عرض الثوابت";
             this.Load += new System.EventHandler(this.frm_view_constants_Load);
-            this.Resize += new System.EventHandler(this.frm_view_constants_Resize);
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

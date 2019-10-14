@@ -503,9 +503,10 @@ namespace client.PL
                         }
 
 
-
-                        txt_dely_minute.Text = (dely_hour*60 + dely_minute).ToString();
-                        txt_hours.Text = Math.Round((Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
+                        txt_dely_minute.Text = "0";//(dely_hour*60 + dely_minute).ToString();
+                        txt_hours.Text = "0";// Math.Round( (Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
+                       // txt_dely_minute.Text = (dely_hour*60 + dely_minute).ToString();
+                      //  txt_hours.Text = Math.Round((Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
                     }
                     else
                     {
@@ -525,8 +526,8 @@ namespace client.PL
                             dely_minute = dely_minute * -1;
                         }
 
-                        txt_dely_minute.Text = (dely_hour*60 + dely_minute).ToString();
-                        txt_hours.Text =  Math.Round( (Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
+                        txt_dely_minute.Text = "0";//(dely_hour*60 + dely_minute).ToString();
+                        txt_hours.Text = "0";// Math.Round( (Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
                     }
 
 
@@ -557,9 +558,11 @@ namespace client.PL
 
 
 
+                    txt_dely_minute.Text = "0";//(dely_hour*60 + dely_minute).ToString();
+                    txt_hours.Text = "0";// Math.Round( (Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
 
-                    txt_dely_minute.Text = (dely_hour*60 + dely_minute).ToString();
-                    txt_hours.Text = Math.Round((Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
+                  //  txt_dely_minute.Text = (dely_hour*60 + dely_minute).ToString();
+                //    txt_hours.Text = Math.Round((Convert.ToDouble(txt_dely_minute.Text) / 60.0)).ToString();
                 }
             }
 

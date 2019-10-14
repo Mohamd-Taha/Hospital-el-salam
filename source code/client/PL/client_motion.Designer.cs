@@ -40,6 +40,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lab_number_of_selected = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.radio_doctors = new System.Windows.Forms.RadioButton();
             this.radio_nursing = new System.Windows.Forms.RadioButton();
             this.radio_salary = new System.Windows.Forms.RadioButton();
@@ -58,7 +59,7 @@
             this.txt_hours = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.data_all_clients)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.data_selected_client)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,39 +72,39 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button2.Location = new System.Drawing.Point(21, 686);
+            this.button2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button2.Location = new System.Drawing.Point(38, 701);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 51);
+            this.button2.Size = new System.Drawing.Size(163, 51);
             this.button2.TabIndex = 1;
             this.button2.Text = "الغاء";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.button3.Location = new System.Drawing.Point(387, 686);
+            this.button3.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.button3.Location = new System.Drawing.Point(434, 701);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(136, 51);
+            this.button3.Size = new System.Drawing.Size(163, 51);
             this.button3.TabIndex = 2;
             this.button3.Text = "حفظ الحركه";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // data_all_clients
             // 
             this.data_all_clients.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.data_all_clients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.data_all_clients.Location = new System.Drawing.Point(6, 68);
+            this.data_all_clients.Location = new System.Drawing.Point(6, 56);
             this.data_all_clients.Name = "data_all_clients";
-            this.data_all_clients.Size = new System.Drawing.Size(496, 223);
+            this.data_all_clients.Size = new System.Drawing.Size(571, 209);
             this.data_all_clients.TabIndex = 3;
             this.data_all_clients.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_all_clients_CellContentClick);
             this.data_all_clients.DoubleClick += new System.EventHandler(this.data_all_clients_DoubleClick);
@@ -115,7 +116,7 @@
             this.data_selected_client.Dock = System.Windows.Forms.DockStyle.Fill;
             this.data_selected_client.Location = new System.Drawing.Point(3, 23);
             this.data_selected_client.Name = "data_selected_client";
-            this.data_selected_client.Size = new System.Drawing.Size(508, 322);
+            this.data_selected_client.Size = new System.Drawing.Size(583, 322);
             this.data_selected_client.TabIndex = 4;
             this.data_selected_client.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_selected_client_CellContentClick);
             this.data_selected_client.DoubleClick += new System.EventHandler(this.data_selected_client_DoubleClick);
@@ -128,13 +129,14 @@
             this.groupBox1.Location = new System.Drawing.Point(9, 347);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox1.Size = new System.Drawing.Size(514, 348);
+            this.groupBox1.Size = new System.Drawing.Size(589, 348);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txt_search);
             this.groupBox2.Controls.Add(this.data_all_clients);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
@@ -142,7 +144,7 @@
             this.groupBox2.Location = new System.Drawing.Point(15, 76);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox2.Size = new System.Drawing.Size(508, 265);
+            this.groupBox2.Size = new System.Drawing.Size(583, 276);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -151,7 +153,7 @@
             // 
             this.txt_search.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_search.ForeColor = System.Drawing.Color.Black;
-            this.txt_search.Location = new System.Drawing.Point(32, 26);
+            this.txt_search.Location = new System.Drawing.Point(59, 18);
             this.txt_search.Name = "txt_search";
             this.txt_search.Size = new System.Drawing.Size(302, 32);
             this.txt_search.TabIndex = 8;
@@ -172,7 +174,7 @@
             // 
             this.combo_cat.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.combo_cat.FormattingEnabled = true;
-            this.combo_cat.Location = new System.Drawing.Point(21, 18);
+            this.combo_cat.Location = new System.Drawing.Point(92, 22);
             this.combo_cat.Name = "combo_cat";
             this.combo_cat.Size = new System.Drawing.Size(353, 32);
             this.combo_cat.TabIndex = 5;
@@ -183,7 +185,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(393, 24);
+            this.label2.Location = new System.Drawing.Point(464, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 20);
             this.label2.TabIndex = 8;
@@ -207,7 +209,7 @@
             this.groupBox3.Controls.Add(this.lab_number_of_selected);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.groupBox3.ForeColor = System.Drawing.Color.White;
-            this.groupBox3.Location = new System.Drawing.Point(535, 423);
+            this.groupBox3.Location = new System.Drawing.Point(613, 398);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox3.Size = new System.Drawing.Size(268, 301);
@@ -215,12 +217,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label3.Location = new System.Drawing.Point(137, 126);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(121, 25);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "عدد المختارين";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // radio_doctors
             // 
             this.radio_doctors.AutoSize = true;
-            this.radio_doctors.Location = new System.Drawing.Point(145, 152);
+            this.radio_doctors.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radio_doctors.Location = new System.Drawing.Point(109, 143);
             this.radio_doctors.Name = "radio_doctors";
-            this.radio_doctors.Size = new System.Drawing.Size(106, 24);
+            this.radio_doctors.Size = new System.Drawing.Size(156, 27);
             this.radio_doctors.TabIndex = 13;
             this.radio_doctors.TabStop = true;
             this.radio_doctors.Text = "الاطباء المقيمين";
@@ -230,9 +244,10 @@
             // radio_nursing
             // 
             this.radio_nursing.AutoSize = true;
-            this.radio_nursing.Location = new System.Drawing.Point(179, 104);
+            this.radio_nursing.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radio_nursing.Location = new System.Drawing.Point(173, 101);
             this.radio_nursing.Name = "radio_nursing";
-            this.radio_nursing.Size = new System.Drawing.Size(72, 24);
+            this.radio_nursing.Size = new System.Drawing.Size(92, 27);
             this.radio_nursing.TabIndex = 14;
             this.radio_nursing.TabStop = true;
             this.radio_nursing.Text = "التمريض";
@@ -242,9 +257,10 @@
             // radio_salary
             // 
             this.radio_salary.AutoSize = true;
-            this.radio_salary.Location = new System.Drawing.Point(190, 58);
+            this.radio_salary.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radio_salary.Location = new System.Drawing.Point(191, 42);
             this.radio_salary.Name = "radio_salary";
-            this.radio_salary.Size = new System.Drawing.Size(61, 24);
+            this.radio_salary.Size = new System.Drawing.Size(74, 27);
             this.radio_salary.TabIndex = 15;
             this.radio_salary.TabStop = true;
             this.radio_salary.Text = "الراتب";
@@ -271,7 +287,7 @@
             this.groupBox4.Controls.Add(this.radio_nursing);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.groupBox4.ForeColor = System.Drawing.Color.White;
-            this.groupBox4.Location = new System.Drawing.Point(526, 218);
+            this.groupBox4.Location = new System.Drawing.Point(610, 167);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox4.Size = new System.Drawing.Size(282, 199);
@@ -379,7 +395,7 @@
             this.groupBox5.Controls.Add(this.txt_year);
             this.groupBox5.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.White;
-            this.groupBox5.Location = new System.Drawing.Point(529, 88);
+            this.groupBox5.Location = new System.Drawing.Point(613, 37);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.groupBox5.Size = new System.Drawing.Size(279, 124);
@@ -413,13 +429,14 @@
             this.groupBox6.Controls.Add(this.txt_dely_minute);
             this.groupBox6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.ForeColor = System.Drawing.Color.White;
-            this.groupBox6.Location = new System.Drawing.Point(490, 12);
+            this.groupBox6.Location = new System.Drawing.Point(876, 12);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.groupBox6.Size = new System.Drawing.Size(318, 70);
+            this.groupBox6.Size = new System.Drawing.Size(10, 10);
             this.groupBox6.TabIndex = 12;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "التأخير";
+            this.groupBox6.Visible = false;
             // 
             // label8
             // 
@@ -431,16 +448,16 @@
             this.label8.TabIndex = 29;
             this.label8.Text = "ساعات";
             // 
-            // label3
+            // label4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label3.Location = new System.Drawing.Point(137, 126);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 25);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "عدد المختارين";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(374, 24);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "بحث عن";
             // 
             // client_motion
             // 
@@ -448,7 +465,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(815, 759);
+            this.ClientSize = new System.Drawing.Size(898, 759);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.button1);
@@ -516,6 +533,7 @@
         private System.Windows.Forms.GroupBox groupBox6;
         public System.Windows.Forms.Label label8;
         public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label4;
 
     }
 }
