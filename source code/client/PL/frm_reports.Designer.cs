@@ -306,6 +306,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "التقارير عن الموظفين";
             this.Load += new System.EventHandler(this.frm_reports_Load);
+            this.Resize += new System.EventHandler(this.frm_reports_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 

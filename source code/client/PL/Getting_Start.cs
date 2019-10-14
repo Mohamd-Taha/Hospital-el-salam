@@ -517,7 +517,7 @@ namespace client.PL
 
         private void Getting_Start_Resize(object sender, EventArgs e)
         {
-            resizeControlers();
+            //resizeControlers();
 
         }
     }

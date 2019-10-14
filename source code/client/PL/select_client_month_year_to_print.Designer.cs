@@ -272,6 +272,7 @@
             this.Name = "select_client_month_year_to_print";
             this.Text = "select_client_month_year_to_print";
             this.Load += new System.EventHandler(this.select_client_month_year_to_print_Load);
+            this.Resize += new System.EventHandler(this.select_client_month_year_to_print_Resize);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

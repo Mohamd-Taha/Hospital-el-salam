@@ -267,6 +267,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "تسليم الرواتب";
             this.Load += new System.EventHandler(this.piad_sallary_Load);
+            this.Resize += new System.EventHandler(this.piad_sallary_Resize);
             this.groupBox11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox3.ResumeLayout(false);
